@@ -1,0 +1,8 @@
+,,mean,,standard deviation,
+,,start,end,start,end
+No ,Range Label,a,b,sigmaa,sigmab
+1,NVL,0,1.985,0,0.8104
+2,S,2.5433,5.25,0.9066,1.3693
+3,MOA,3.6433,6.4567,0.8842,0.8557
+4,LA,6.4833,8.75,0.7484,0.5981
+5,MAA,8.55,10,0.7468,0
