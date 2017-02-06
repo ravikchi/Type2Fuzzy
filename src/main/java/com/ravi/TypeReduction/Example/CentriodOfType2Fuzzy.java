@@ -1,4 +1,4 @@
- package com.ravi.TypeReduction;
+ package com.ravi.TypeReduction.Example;
 
  import com.ravi.TypeReduction.Centriod.CentriodIterMethod;
  import com.ravi.TypeReduction.Centriod.Fuzzy.MemFunc;
@@ -13,7 +13,7 @@
  * Hello world!
  *
  */
-public class App 
+public class CentriodOfType2Fuzzy
 {
     public static void main( String[] args )
     {

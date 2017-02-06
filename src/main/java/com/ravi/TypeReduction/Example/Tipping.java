@@ -1,6 +1,5 @@
-package com.ravi.TypeReduction;
+package com.ravi.TypeReduction.Example;
 
-import com.ravi.TypeReduction.Centriod.CentriodIterMethod;
 import com.ravi.TypeReduction.Centriod.Fuzzy.MemFunc;
 import com.ravi.TypeReduction.Centriod.Fuzzy.PWLMF;
 import com.ravi.TypeReduction.TypeReducer.*;
@@ -14,10 +13,6 @@ import java.util.List;
  */
 public class Tipping {
     public static void main(String[] args){
-
-        double x = Double.parseDouble(args[0]);
-        double y = Double.parseDouble(args[1]);
-
         /*TypeReduce rud = TypeReduce.getDummyInstance();
         System.out.println(rud.ylk() + ", " + rud.yrk());*/
 
@@ -62,14 +57,26 @@ public class Tipping {
         antc.clear(); cons.clear();
 
         Tipping tipping = new Tipping();
+
+        double x = 4.0;
+        double y = 8.5;
+
+        System.out.println("Food Quality : "+x);
+        System.out.println("Service Level : "+y);
         System.out.println(tipping.findTip(ruleList, x, y));
 
         x = 9.0;
         y = 6.0;
+
+        System.out.println("Food Quality : "+x);
+        System.out.println("Service Level : "+y);
         System.out.println(tipping.findTip(ruleList, x, y));
 
         x = 4.0;
         y = 2.5;
+
+        System.out.println("Food Quality : "+x);
+        System.out.println("Service Level : "+y);
         System.out.println(tipping.findTip(ruleList, x, y));
 
     }
